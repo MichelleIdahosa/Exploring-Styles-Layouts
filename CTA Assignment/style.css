@@ -1,0 +1,85 @@
+/*Styling the body*/
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h4, p{
+    font-family: Pop;
+    text-align: center;
+    font-weight: 20px;
+    font-size: larger;
+}
+/*Header styles*/
+header{
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+/*Content section styles*/
+.content{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px; /* Margin for the entire content section*/
+}
+section{
+    background-color: rgb(249, 246, 241);
+    border: 1px solid #ddd;
+    padding: 100px;
+    text-align: center;
+}
+/* Box Styling*/
+.box{
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+}
+/* Different font styles */
+.box:nth-child(1) {
+    font-family: 'Arial', sans-serif;
+}
+
+.box:nth-child(2) {
+    font-family: 'Georgia', serif;
+}
+
+.box:nth-child(3) {
+    font-family: 'Courier New', monospace;
+}
+ /* Grid section styles */
+ .grid {
+  display: grid;
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  margin: 20px;
+  justify-content: space-around;
+    
+}
+
+/* Cell styles */
+.cell {
+     text-align: center;
+     
+}
+img{
+    height: 15rem;
+    width: 20rem;
+    border-radius: 5rem;
+}
+
+footer{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    clear: both;
+}
